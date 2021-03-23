@@ -1,7 +1,7 @@
 package main
 
 import (
-    "fmt"
+	"fmt"
 )
 
 func filterFunc[T any](a []T, f func(T) bool) []T {

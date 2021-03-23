@@ -1,7 +1,7 @@
 package main
 
 import (
-    "fmt"
+	"fmt"
 )
 
 func mapFunc[T any, M any](a []T, f func(T) M) []M {

@@ -1,7 +1,7 @@
 package main
 
 import (
-    "fmt"
+	"fmt"
 )
 
 func reduceFunc[T any](a []T, f func(T, T) T, initial interface{}) T {

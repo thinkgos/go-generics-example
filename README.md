@@ -4,8 +4,12 @@ Example code for Go generics.
 
 ## Usage
 
-```
+```bash
 $ go build -gcflags=-G=3
+```
+or
+```bash
+$ go run -gcflags=-G=3 main.go
 ```
 
 ## Requirements
